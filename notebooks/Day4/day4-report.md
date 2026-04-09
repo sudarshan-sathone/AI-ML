@@ -18,8 +18,6 @@ Overall, this felt like working on the “behind-the-scenes” part of ML — no
 
 ## 🐞 Bug Log
 
-## 🐞 Bug Log
-
 I didn’t face any major errors while implementing today’s tasks, mainly because the required libraries were already installed and the setup from previous days was stable.
 
 However, while working through the scripts, I was initially unsure whether the scaling output was correct since the transformed values looked very different from the original data.
