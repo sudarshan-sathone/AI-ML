@@ -1,0 +1,59 @@
+PROJECT TEAMMATE COMPATIBILITY PREDICTION - RESULTS
+============================================================
+
+EVALUATION METRICS
+============================================================
+  Accuracy : 88.57%
+  Recall   : 85.51%
+  F1 Score : 88.06%
+
+CONFUSION MATRIX
+============================================================
+  [[65  6]
+ [10 59]]
+
+  TN: 65  FP: 6
+  FN: 10  TP: 59
+
+CLASSIFICATION REPORT
+============================================================
+                    precision    recall  f1-score   support
+
+Not Compatible (0)       0.87      0.92      0.89        71
+    Compatible (1)       0.91      0.86      0.88        69
+
+          accuracy                           0.89       140
+         macro avg       0.89      0.89      0.89       140
+      weighted avg       0.89      0.89      0.89       140
+
+TOP 10 FEATURE IMPORTANCE
+============================================================
+  common_tech communication_score               0.1194  XXXX
+  availability_match communication_score        0.1024  XXXX
+  skill_diff experience_gap                     0.1007  XXXX
+  experience_gap                                0.0886  XXX
+  common_tech                                   0.0708  XX
+  communication_score                           0.0705  XX
+  skill_diff                                    0.0699  XX
+  common_tech availability_match                0.0634  XX
+  communication_score experience_gap            0.0592  XX
+  skill_diff communication_score                0.0586  XX
+
+FULL FEATURE IMPORTANCE TABLE
+============================================================
+                               Feature  Importance
+       common_tech communication_score    0.119427
+availability_match communication_score    0.102350
+             skill_diff experience_gap    0.100743
+                        experience_gap    0.088605
+                           common_tech    0.070847
+                   communication_score    0.070525
+                            skill_diff    0.069925
+        common_tech availability_match    0.063416
+    communication_score experience_gap    0.059185
+        skill_diff communication_score    0.058635
+                skill_diff common_tech    0.056137
+            common_tech experience_gap    0.040092
+         skill_diff availability_match    0.039966
+     availability_match experience_gap    0.033633
+                    availability_match    0.026514
